@@ -1,0 +1,151 @@
+/* footer section */
+.footer {
+    padding-top: 1rem;
+    background-color:#173B45;
+  }
+  #loc-icon{
+    font-size: 1rem;
+  }
+  @media (max-width: 575.98px) {
+    .footer .contact-box-wrapper {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .contact-box {
+    position: relative;
+  }
+  @media (min-width: 1200px) {
+    .contact-box {
+      justify-content: center;
+    }
+  }
+  .contact-box__icon {
+    width: 2.5rem;
+    stroke: #4864ba;
+    padding-top: 0.5rem;
+  }
+  @media (min-width: 576px) {
+    .contact-box__icon {
+      width: 3.5rem;
+    }
+  }
+  .contact-box__info {
+    padding: 0.4rem;
+    font-weight: 600;
+  }
+  .contact-box__info--title {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  @media (min-width: 992px) {
+    .contact-box__info--title {
+      font-size: 1.4rem;
+    }
+  }
+  .contact-box__info--subtitle {
+    font-size: 0.8rem;
+    color: #6c757d;
+    text-decoration: none;
+  }
+  @media (min-width: 576px) {
+    .contact-box__info--subtitle {
+      font-size: 1rem;
+    }
+  }
+  
+  .footer-sm {
+    background-color:#FF8225;
+  }
+  .footer-sm a {
+    color: #fff;
+  }
+  .footer-sm a i {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  @media (min-width: 576px) {
+    .footer-sm a i {
+      font-size: 1.6rem;
+    }
+  }
+  .footer-sm a:hover {
+    color: #4864ba;
+  }
+  
+  .company-info hr {
+    width: 60px;
+    height: 2px;
+  }
+  .company-info .company-list {
+    display: block;
+    list-style-type: none;
+    position: relative;
+  }
+  .company-info .company-list li {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+  }
+  .company-info .company-list li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .company-info .company-list li a:hover {
+    color: #4864ba;
+  }
+  
+  .footer-bottom {
+    background-color: #000;
+  }
+  .footer-bottom__copyright {
+    font-size: 0.9rem;
+    color: #6c757d;
+    font-weight: 400;
+  }
+  .footer-bottom__copyright a {
+    color: #dee2e6;
+    text-decoration: none;
+  }
+  .footer-bottom__copyright a:hover {
+    color: #4864ba;
+    text-decoration: underline;
+  }
+  
+  .back-to-top {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1.875rem;
+    bottom: 1.875rem;
+    z-index: 9999;
+    background-color: #FF8225;
+  }
+  .back-to-top i {
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .back-to-top:hover {
+    background-color:var(--bs-body-bg1);
+  }
+  .navbar-dark {
+    --bs-navbar-color: rgba(255, 255, 255, 0.55);
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+
+
+
+
+
